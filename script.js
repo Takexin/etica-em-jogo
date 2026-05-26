@@ -1,8 +1,8 @@
 const cartasBrancas = [
-    "Amor da sua vida", "Andre", "Tung Tung Tung Sahur 🤦‍♂️", "Feijão", "Ovo de gema dura", "Gato"
+    "5 idosos","Amor da sua vida", "Andre", "Tung Tung Tung Sahur 🤦‍♂️", "Feijão", "Ovo de gema dura", "Gato"
 ]
 const cartasPretas = [
-    "Videogames","Denis", "67", "Arroz", "Ovo de gema mole", "Cachorro" 
+    "2 bebês","Videogames","Denis", "67", "Arroz", "Ovo de gema mole", "Cachorro" 
 ]
 
 
