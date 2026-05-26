@@ -1,0 +1,39 @@
+body{
+    background-image: url("trolley-problem.jpg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+.centered{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card-2{
+    position : absolute;
+    top: 65%;
+    left: 55%;
+    background-color: black;
+    color: white;
+}
+
+#card-1{
+    position : absolute;
+    top: 30%;
+    left: 55%;
+    background-color: white;
+}
