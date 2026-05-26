@@ -1,20 +1,28 @@
-const cartasPretas = [
-    "carta1","carta2","carta3"
-]
-
 const cartasBrancas = [
-    "carta6","carta7"
+    "Amor da sua vida", "Andre", "Tung Tung Tung Sahur 🤦‍♂️", "Feijão", "Ovo de gema dura", "Gato"
+]
+const cartasPretas = [
+    "Videogames","Denis", "67", "Arroz", "Ovo de gema mole", "Cachorro" 
 ]
 
-function randInt(min,max){
-    let random = Math.floor(Math.random() * (max - min + 1)) + min;
-    return random
-}
+
+index = -1;
 
 document.getElementById("mudarBtn").addEventListener("click", (e)=>{
-    const cartaPreta = cartasPretas[randInt(0, cartasPretas.length-1)]
-    const cartaBranca = cartasPretas[randInt(0, cartasBrancas.length-1)]
+    if(index != cartasPretas.length-1){
+        index++
+    }
+    else{
+        document.getElementById("main").style.display = "none";
+        document.getElementById("final").style.display = "flex";
+    }
 
-    document.getElementById("card-1").innerText = cartaBranca
-    document.getElementById("card-2").innerText = cartaPreta 
+
+    let cartaPreta = cartasPretas[index];
+    let cartaBranca = cartasBrancas[index];
+
+    document.getElementById("card-1").innerText = cartaBranca;
+    document.getElementById("card-2").innerText = cartaPreta ;
+
+
 })
